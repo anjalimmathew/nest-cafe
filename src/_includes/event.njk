@@ -1,0 +1,79 @@
+---
+layout: layout.njk
+---
+{% set prevEvent = null %}
+{% set nextEvent = null %}
+{% for e in collections.events %}
+  {% if e.data.number == number - 1 %}{% set prevEvent = e %}{% endif %}
+  {% if e.data.number == number + 1 %}{% set nextEvent = e %}{% endif %}
+{% endfor %}
+
+<article class="event-page">
+  <div class="wrap">
+    <div class="event-page__top">
+      <a class="back-link" href="/events/">&larr; All events</a>
+
+      {% if location or topic %}
+      <div class="event-details">
+        <p class="event-details__tab">the details</p>
+        <p><strong>When:</strong> {{ date | readableDate }}</p>
+        {% if location %}<p><strong>Where:</strong> {{ location }}</p>{% endif %}
+        {% if topic %}<p><strong>Topic:</strong> {{ topic }}</p>{% endif %}
+      </div>
+      {% endif %}
+    </div>
+
+    <p class="event-page__number">Event {{ number | pad2 }}</p>
+    <h1>{{ title }}</h1>
+    <p class="tag-row">{% for theme in themes %}<span class="tag">{{ theme }}</span>{% endfor %}</p>
+
+    {{ content | safe }}
+
+    {% if menu %}
+    <h2>On the menu</h2>
+    <div class="recipes__grid recipes__grid--menu">
+      {% for item in menu %}
+      {% set r = recipes | findRecipe(item) %}
+      {% if r %}
+      <div class="recipe-card recipe-card--static">
+        <div class="recipe-card__photo">
+          <svg class="recipe-card__curve" viewBox="0 0 210 56" aria-hidden="true">
+            <path id="menu-curve-{{ loop.index }}" d="M 10,54 A 175,175 0 0 1 200,54" fill="none"></path>
+            <text><textPath href="#menu-curve-{{ loop.index }}" startOffset="50%" text-anchor="middle">{{ r.title }}</textPath></text>
+          </svg>
+          <div class="recipe-card__photo-inner"><img src="{{ r.image }}" alt="{{ r.title }}"></div>
+        </div>
+        <p class="recipe-card__price">{{ r.price }}</p>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if menu or receiptExtras %}
+    <div class="receipt">
+      <h3 class="receipt__shop"><img src="/images/logo-no-text.png" alt="" class="receipt__shop-icon">Nest Cafe</h3>
+      <p class="receipt__sub">{{ receiptSub or (date | shortDate ~ " · " ~ location) }}</p>
+      {% for item in menu %}
+      {% set r = recipes | findRecipe(item) %}
+      {% if r %}
+      <div class="receipt__line"><span>{{ r.title }}</span><span>{{ r.price }}</span></div>
+      {% endif %}
+      {% endfor %}
+      {% for extra in receiptExtras %}
+      <div class="receipt__line"><span>{{ extra.name }}</span><span class="receipt__tag">{{ extra.tag }}</span></div>
+      {% endfor %}
+      {% if receiptTotalLabel %}
+      <div class="receipt__total"><span>{{ receiptTotalLabel }}</span><span>{{ receiptTotalValue }}</span></div>
+      {% endif %}
+      <div class="receipt__barcode" aria-hidden="true"></div>
+      <p class="receipt__barcode-num">Event {{ number | pad2 }}</p>
+    </div>
+    {% endif %}
+
+    <nav class="event-page__pager">
+      {% if prevEvent %}<a href="{{ prevEvent.url }}">&larr; {{ prevEvent.data.title }}</a>{% else %}<span></span>{% endif %}
+      {% if nextEvent %}<a href="{{ nextEvent.url }}">{{ nextEvent.data.title }} &rarr;</a>{% endif %}
+    </nav>
+  </div>
+</article>

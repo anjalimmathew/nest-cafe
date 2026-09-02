@@ -1,0 +1,15 @@
+{
+  "title": "Nest Cafe",
+  "email": "nestcafehtx@gmail.com",
+  "instagramHandle": "@nestcafehtx",
+  "instagramLink": "https://www.instagram.com/nestcafehtx",
+  "city": "Houston, TX",
+  "founders": "Sammy & Ananya",
+  "footerTagline": "A home cafe by Sammy & Ananya. A space to feel a little more connected.",
+  "nav": [
+    { "label": "About", "url": "/about/" },
+    { "label": "Events", "url": "/events/" },
+    { "label": "Recipes", "url": "/recipes/" },
+    { "label": "Contact", "url": "/contact/" }
+  ]
+}

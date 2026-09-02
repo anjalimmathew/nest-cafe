@@ -1,0 +1,68 @@
+[
+  {
+    "title": "The Sea Salt Situation",
+    "image": "/images/recipes/sea-salt-situation.jpg",
+    "description": "Crackly, brown-buttered, and finished with flaky sea salt.",
+    "price": "$4.00"
+  },
+  {
+    "title": "The Tiramisu Twist",
+    "image": "/images/recipes/tiramisu-twist.jpg",
+    "description": "Coffee, cocoa, and a little mascarpone magic.",
+    "price": "$4.00"
+  },
+  {
+    "title": "The Double Trouble",
+    "image": "/images/recipes/double-trouble.jpg",
+    "description": "Extra fudgy double chocolate brownies.",
+    "price": "$3.50"
+  },
+  {
+    "title": "The Chocolate Chip Charmer",
+    "image": "/images/recipes/chocolate-chip-charmer.jpg",
+    "description": "Warm, tender banana bread studded with melty chocolate chips.",
+    "price": "$4.00"
+  },
+  {
+    "title": "The Berry Bright",
+    "image": "/images/recipes/berry-bright.jpg",
+    "description": "Bright, berry-packed, and antioxidant-dense.",
+    "price": "$3.50"
+  },
+  {
+    "title": "The Cozy Cardamom",
+    "image": "/images/recipes/cozy-cardamom.jpg",
+    "description": "Orange and cardamom, warm-spiced and sunshine-y. Our cozy little muffin.",
+    "price": "$3.50"
+  },
+  {
+    "title": "The Salted Sweetheart",
+    "image": "/images/recipes/salted-sweetheart.jpg",
+    "description": "Banana cupcake with a molten salted caramel center.",
+    "price": "$5.00"
+  },
+  {
+    "title": "The Nutella Nook",
+    "image": "/images/recipes/nutella-nook.jpg",
+    "description": "Banana cupcake with a pool of Nutella inside. Go ahead, take a peek.",
+    "price": "$5.50"
+  },
+  {
+    "title": "The Tomato Tangle",
+    "image": "/images/recipes/tomato-tangle.jpg",
+    "description": "Pillowy focaccia loaded with blistered tomatoes, basil, and parmesan.",
+    "price": "$4.50"
+  },
+  {
+    "title": "The Caramelized Classic",
+    "image": "/images/recipes/caramelized-classic.jpg",
+    "description": "Focaccia with sweet caramelized onion and tangy goat cheese.",
+    "price": "$4.50"
+  },
+  {
+    "title": "The Garlic Getaway",
+    "image": "/images/recipes/garlic-getaway.jpg",
+    "description": "Buttery garlic mozzarella crescent rolls with a vodka marinara for dipping.",
+    "price": "$5.50"
+  }
+]
