@@ -16,9 +16,9 @@ layout: layout.njk
       {% if location or topic %}
       <div class="event-details">
         <p class="event-details__tab">the details</p>
-        <p><strong>When:</strong> {{ date | readableDate }}</p>
-        {% if location %}<p><strong>Where:</strong> {{ location }}</p>{% endif %}
-        {% if topic %}<p><strong>Topic:</strong> {{ topic }}</p>{% endif %}
+        <p><strong>When:</strong><span class="bv">{{ date | readableDate }}</span></p>
+        {% if location %}<p><strong>Where:</strong><span class="bv">{{ location }}</span></p>{% endif %}
+        {% if topic %}<p><strong>Topic:</strong><span class="bv">{{ topic }}</span></p>{% endif %}
       </div>
       {% endif %}
     </div>

@@ -3,6 +3,7 @@ title: "You Are Not Alone"
 date: 2026-04-24
 image: /images/events/you-are-not-alone.jpg
 excerpt: "mental health & stress, on the last day of class"
+listingDescription: "Our first fully independent pop-up, and we sold out. On the last day of classes we handed out a finals-season guide to noticing and managing stress, because community starts with being real."
 themes: ["Mental Health", "Wellness"]
 location: "Outside Brochstein"
 topic: "Mental health & stress"

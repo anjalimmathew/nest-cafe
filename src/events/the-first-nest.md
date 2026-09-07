@@ -3,6 +3,7 @@ title: "The First Nest"
 date: 2026-03-01
 image: /images/events/the-first-nest.jpg
 excerpt: "how everyday ingredients quietly care for you"
+listingDescription: "Our debut. A doorway full of shoes, everyone gathered around the island. We paired the menu with little notes on what each ingredient quietly does for you."
 themes: ["Nutrition", "Conversations", "Community"]
 location: "The Nest on Dryden"
 topic: "Everyday nutrition & wellbeing"

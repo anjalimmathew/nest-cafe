@@ -11,11 +11,13 @@ foundingDescription2: "Through food and shared experiences, we hope to bring peo
 foundingButtonText: "Learn More"
 foundingButtonLink: /about/
 ---
+
 <section class="hero">
 <div class="wrap hero__row">
-<div class="photo-frame hero__logo-frame"><img src="/images/logo-no-text.png" alt="Nest Cafe"></div>
+<img src="/images/logo-no-text.png" alt="Nest Cafe" class="hero__logo-img">
 <div class="hero__copy">
-<h1>welcome to <span class="script-accent">Nest cafe</span></h1>
+<p class="kicker">welcome to</p>
+<h1 class="script-line">Nest Cafe</h1>
 <p class="hero__message">{{ welcomeMessage }}</p>
 <a class="button" href="{{ welcomeButtonLink }}">{{ welcomeButtonText }}</a>
 </div>
@@ -27,7 +29,7 @@ foundingButtonLink: /about/
 <div class="photo-frame"><img src="{{ foundingImage }}" alt="{{ site.founders }} at Nest Cafe"></div>
 <div class="founding__copy">
 <p class="kicker">our story</p>
-<h2>Founded by two friends in <span class="script-accent">2026</span></h2>
+<h2>Founded by two friends in <span class="script-accent">2025</span></h2>
 <p>{{ foundingDescription }}</p>
 <p>{{ foundingDescription2 }}</p>
 <a class="link" href="{{ foundingButtonLink }}">{{ foundingButtonText }}</a>

@@ -2,7 +2,7 @@
 layout: layout.njk
 title: Events
 description: "Every Nest pop-up pairs a fresh menu with a topic we wanted to learn about together."
-connectDescription: "We're cooking up what's next. Follow along, or say hello and we'll keep you posted."
+connectDescription: "We're cooking up what's next. Follow along, and we'll keep you posted."
 connectButtonText: "Get on the list"
 connectFormLink: /contact/
 issues:
@@ -36,7 +36,8 @@ issues:
 <p class="event-row__meta">{{ event.data.number | pad2 }} &middot; {{ event.data.date | readableDate }}</p>
 <h2>{{ event.data.title }}</h2>
 <p class="tag-row">{% for theme in event.data.themes %}<span class="tag">{{ theme }}</span>{% endfor %}</p>
-<p>{{ event.data.excerpt }}</p>
+<p class="event-row__topic">{{ event.data.excerpt }}</p>
+<p class="event-row__desc">{{ event.data.listingDescription }}</p>
 <span class="link">Step inside</span>
 </div>
 </a>
@@ -48,7 +49,7 @@ issues:
 <section class="connect">
 <div class="wrap connect__row">
 <div class="connect__copy">
-<p class="kicker">more soon!</p>
+<h2 >more soon!</h2>
 <p>{{ connectDescription }}</p>
 </div>
 <a class="button" href="{{ connectFormLink }}">{{ connectButtonText }}</a>

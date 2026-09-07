@@ -3,6 +3,7 @@ title: "Exercising Your Right"
 date: 2026-04-02
 image: /images/events/exercising-your-right.jpg
 excerpt: "a Pilates class & nonpartisan civic resources"
+listingDescription: "A collaboration with solidcore instructors for a free Pilates class on the quad, timed to voting season. Just like exercise strengthens your body, civic engagement strengthens your community."
 themes: ["Civic Engagement", "Community", "Wellness"]
 location: "Rice Academic Quad"
 topic: "Nonpartisan civic engagement"

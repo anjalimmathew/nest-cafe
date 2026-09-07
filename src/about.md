@@ -1,23 +1,32 @@
 ---
 layout: layout.njk
 title: About
-description: "How Nest Cafe hatched from the overlap of what two friends love, what they're good at, and what their community needs."
-letterTitle: "Hey there!"
-letterButtonText: "Contact us"
+description: "How Nest Cafe grew from Sammy cooking for friends into a home cafe and community, brought to life by the team behind it."
+letterButtonText: "Say hello"
 letterButtonLink: /contact/
 ---
 
-<section class="letter">
-<div class="wrap letter__row">
-<div class="letter__copy">
-<p class="kicker">{{ letterTitle }}</p>
-<p>Hi! We're {{ site.founders }}, two friends behind Nest Café, a home café built from a simple question: How can we create something meaningful in a world that can often feel overwhelming and disconnected?</p>
-<p>We started by sitting down with a Venn diagram, mapping out what we love, what we're good at, and what we believe our community needs most. Nest Café hatched from the overlap.</p>
-<p class="pull-quote">Our friendship grew through the little things: workouts planned together, cooking side by side, and long conversations over coffee. Somewhere along the way, we realized we shared the same hope: to create something that gives people a starting point for connection, curiosity, and meaningful change, especially when so much around us feels heavy.</p>
-<p>Nest is our way of bringing people back to the table, to share good food, ask better questions, and remind one another that even small acts of connection can be a place to begin.</p>
-<a class="link" href="{{ letterButtonLink }}">{{ letterButtonText }}</a>
+<section class="letter-section">
+<div class="wrap letter__col letter__col--prose">
+<h1 class="script-line">Hey there!</h1>
+<p>I'm Samvita, the founder and logistics head of Nest Cafe.</p>
+<p>Nest Cafe originally started with cooking for my friends in the Fall of 2025, but soon, it grew to be a community and place I loved and called home. Excited to take you on our journey!</p>
 </div>
-<div class="letter__media">
+</section>
+
+<section class="letter-section letter-section--tint">
+<div class="wrap letter__col">
+<p class="letter-heading">The Founding Idea</p>
+<div class="founding-idea">
+<div class="founding-idea__text">
+<p>From the beginning, Nest was shaped by a simple set of questions:</p>
+<ul class="question-list">
+<li>What do we love?</li>
+<li>What can we bring?</li>
+<li>What does our community need?</li>
+</ul>
+<p class="letter-quote">Nest Café hatched from the overlap.</p>
+</div>
 <svg class="venn" viewBox="0 0 220 220" role="img" aria-label="A Venn diagram of what we love, what we're good at, and what our community needs, overlapping in Nest">
 <circle cx="110" cy="72" r="68" fill="var(--periwinkle)" opacity="0.55" style="mix-blend-mode:multiply"></circle>
 <circle cx="78" cy="138" r="68" fill="var(--badge-blue-deep)" opacity="0.55" style="mix-blend-mode:multiply"></circle>
@@ -31,10 +40,36 @@ letterButtonLink: /contact/
 </div>
 </section>
 
+<section class="letter-section letter-section--pb-tight">
+<div class="wrap letter__col">
+<p class="letter-heading">Meet the Team</p>
+<p class="section-lead">Nest has grown quite a bit since those first meals. Today, it's brought to life by a team of people who each bring something different to the table.</p>
+<div class="team-grid">
+<div class="team-card"><img class="team-card__photo" src="/images/team/sammy.jpeg" alt="Sammy"><p class="team-card__name">Sammy</p><p class="team-card__role">Founder &amp; Logistics Head</p></div>
+<div class="team-card"><img class="team-card__photo" src="/images/team/abigail.jpeg" alt="Abigail"><p class="team-card__name">Abigail</p><p class="team-card__role">Operations Head</p></div>
+<div class="team-card"><img class="team-card__photo" src="/images/team/harika.jpeg" alt="Harika"><p class="team-card__name">Harika</p><p class="team-card__role">Media Design</p></div>
+<div class="team-card"><img class="team-card__photo" src="/images/team/anjali.jpeg" alt="Anjali"><p class="team-card__name">Anjali</p><p class="team-card__role">Website Creation</p></div>
+<div class="team-card"><img class="team-card__photo" src="/images/team/shivani.jpeg" alt="Shivani"><p class="team-card__name">Shivani</p><p class="team-card__role">Event Photographer</p></div>
+<div class="team-card"><img class="team-card__photo" src="/images/team/shrusti.jpeg" alt="Shrusti"><p class="team-card__name">Shrusti</p><p class="team-card__role">Finance Manager</p></div>
+</div>
+</div>
+</section>
+
+<section class="letter-section letter-section--pt-tight">
+<div class="wrap">
+<div class="attachment-dialog letter-closing">
+<span class="attachment-dialog__pin" aria-hidden="true"></span>
+<h2>Connection doesn't have to be complicated</h2>
+<p>Come for the coffee and sweet treats, stay for a conversation.</p>
+<a class="button" href="{{ letterButtonLink }}">{{ letterButtonText }} &rarr;</a>
+</div>
+</div>
+</section>
+
 <section class="instagram">
 <div class="wrap">
 <p class="kicker">follow along on</p>
-<h2>Instagram</h2>
+<h2 class="script-line">Instagram</h2>
 </div>
 <a class="instagram-strip" href="{{ site.instagramLink }}" aria-label="Visit {{ site.instagramHandle }} on Instagram">
 <div class="instagram-strip__track">
