@@ -7,36 +7,54 @@ letterButtonLink: /contact/
 ---
 
 <section class="letter-section">
-<div class="wrap letter__col letter__col--prose">
+<div class="wrap letter-hey__wrap">
+<img class="letter-hey__icon" src="/images/about-coffee-steam.png" alt="">
+<div class="letter-hey__copy">
 <h1 class="script-line">Hey there!</h1>
 <p>I'm Samvita, the founder and logistics head of Nest Cafe.</p>
 <p>Nest Cafe originally started with cooking for my friends in the Fall of 2025, but soon, it grew to be a community and place I loved and called home. Excited to take you on our journey!</p>
 </div>
+</div>
 </section>
 
-<section class="letter-section letter-section--tint">
-<div class="wrap letter__col">
-<p class="letter-heading">The Founding Idea</p>
-<div class="founding-idea">
-<div class="founding-idea__text">
-<p>From the beginning, Nest was shaped by a simple set of questions:</p>
-<ul class="question-list">
-<li>What do we love?</li>
-<li>What can we bring?</li>
-<li>What does our community need?</li>
-</ul>
-<p class="letter-quote">Nest Café hatched from the overlap.</p>
+<section class="founding-band" style="background-image:url('/images/recipes/sea-salt-situation.jpg');">
+<div class="founding-band__overlay">
+<div class="wrap founding-band__header">
+<p class="founding-band__title">Founding Idea</p>
+<p class="founding-band__subtitle">From the beginning, Nest was shaped by a simple set of questions.</p>
 </div>
-<svg class="venn" viewBox="0 0 220 220" role="img" aria-label="A Venn diagram of what we love, what we're good at, and what our community needs, overlapping in Nest">
-<circle cx="110" cy="72" r="68" fill="var(--periwinkle)" opacity="0.55" style="mix-blend-mode:multiply"></circle>
-<circle cx="78" cy="138" r="68" fill="var(--badge-blue-deep)" opacity="0.55" style="mix-blend-mode:multiply"></circle>
-<circle cx="142" cy="138" r="68" fill="var(--periwinkle-deep)" opacity="0.45" style="mix-blend-mode:multiply"></circle>
-<text x="110" y="36"><tspan x="110" dy="0">what we</tspan><tspan x="110" dy="9">love</tspan></text>
-<text x="46" y="144"><tspan x="46" dy="0">what we're</tspan><tspan x="46" dy="9">good at</tspan></text>
-<text x="174" y="140"><tspan x="174" dy="0">what our</tspan><tspan x="174" dy="9">community</tspan><tspan x="174" dy="9">needs</tspan></text>
-<text class="venn__center" x="110" y="122">Nest</text>
+<div class="wrap founding-band__layout">
+<svg class="founding-band__lines" viewBox="0 0 1120 520" preserveAspectRatio="none" aria-hidden="true">
+<line x1="679" y1="171" x2="784" y2="93"/>
+<line x1="382" y1="260" x2="304" y2="260"/>
+<line x1="560" y1="349" x2="448" y2="425"/>
+<line x1="960" y1="52" x2="1040" y2="8"/>
+<line x1="990" y1="68" x2="1085" y2="135"/>
+<line x1="45" y1="246" x2="-35" y2="135"/>
+<line x1="45" y1="274" x2="-35" y2="385"/>
+<line x1="370" y1="480" x2="300" y2="505"/>
+<line x1="526" y1="480" x2="596" y2="505"/>
 </svg>
+<img class="founding-band__ambient-constellation founding-band__ambient-constellation--a" src="/images/decor-constellation-new.png" alt="" aria-hidden="true">
+<img class="founding-band__ambient-constellation founding-band__ambient-constellation--b" src="/images/decor-constellation-new.png" alt="" aria-hidden="true">
+<p class="founding-band__q founding-band__q--1">What do we love?</p>
+<svg class="founding-band__spark founding-band__spark--1a" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8z"/></svg>
+<svg class="founding-band__spark founding-band__spark--1b" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8z"/></svg>
+<p class="founding-band__q founding-band__q--2">What can we bring?</p>
+<svg class="founding-band__spark founding-band__spark--2a" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8z"/></svg>
+<svg class="founding-band__spark founding-band__spark--2b" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8z"/></svg>
+<p class="founding-band__q founding-band__q--3">What does our community need?</p>
+<svg class="founding-band__spark founding-band__spark--3a" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8z"/></svg>
+<svg class="founding-band__spark founding-band__spark--3b" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8z"/></svg>
+<svg class="founding-band__ambient-star founding-band__ambient-star--a" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8z"/></svg>
+<svg class="founding-band__ambient-star founding-band__ambient-star--b" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8z"/></svg>
+<svg class="founding-band__ambient-star founding-band__ambient-star--c" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8z"/></svg>
+<svg class="founding-band__ambient-star founding-band__ambient-star--d" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8z"/></svg>
+<div class="founding-band__center">
+<img class="founding-band__mark" src="/images/logo-white-transparent.png" alt="Nest Cafe">
 </div>
+</div>
+<p class="founding-band__caption">Nest hatched from the overlap.</p>
 </div>
 </section>
 
